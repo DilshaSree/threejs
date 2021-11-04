@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    
+    <canvas id="bg"></canvas>
+
+    <main>
+
+      <header>
+        <div class="logo">
+          <h2>Logo</h2>
+        </div>
+        <nav>
+          <ul class="navBar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="caption">
+        <h1>What isThree.js ?</h1>
+      </div>
+
+      <div class="intro">
+        <p>Three.js is a cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser using WebGL. The source code is hosted in a repository on GitHub.</p>
+      </div>
+
+      <div class="overview">
+        <h2>OVERVIEW</h2>
+        <p>Three.js allows the creation of graphical processing unit (GPU)-accelerated 3D animations using the JavaScript language as part of a website without relying on proprietary browser plugins. This is possible due to the advent of WebGL.</p>
+        <p>libraries such as Three.js or GLGE, SceneJS, PhiloGL, or a number of other libraries make it possible to author complex 3D computer animations that display in the browser without the effort required for a traditional standalone application or a plugin.</p>
+      </div>
+      <div class="overview">
+        <h2>HISTORY</h2>
+        <p>Three.js was first released by Ricardo Cabello to GitHub in April 2010.The origins of the library can be traced back to his involvement with the demoscene in the early 2000s.The code was first developed in ActionScript and ported to JavaScript in 2009. In Cabello's mind, the two strong points for the transfer to JavaScript were not having to compile the code before each run and platform independence. With the advent of WebGL, Paul Brunt was able to add the renderer for this quite easily as Three.js was designed with the rendering code as a module rather than in the core itself.Cabello's contributions include API design, CanvasRenderer, SVGRenderer, and being responsible for merging the commits by the various contributors into the project.</p>
+        <p>Branislav Uličný, an early contributor, started with Three.js in 2010 after having posted a number of WebGL demos on his own site. He wanted WebGL renderer capabilities in Three.js to exceed those of CanvasRenderer or SVGRenderer.His major contributions generally involve materials, shaders, and post-processing.</p>
+        <p>Soon after the introduction of WebGL 1.0 on Firefox 4 in March 2011, Joshua Koo came on board. He built his first Three.js demo for 3D text in September 2011.His contributions frequently relate to geometry generation.</p>
+      </div>
+      <div class="overview">
+        <h2>KEY FEATURES</h2>
+        <h4>Effects</h4>
+        <p>Anaglyph, cross-eyed and parallax barrier. Using the effects of Three.js there is one filter ‘ShaderSkin’ file or alternatively creating my own shader. In this, you can make your face skin tone change to make it look realistic.</p>
+        <h4>Scenes</h4>
+        <p>Scenes let you set up what and where is to be rendered by Three.js. This is where you place objects, lights, and cameras. Add and remove objects at run-time; fog. Post-Processing is the adding of picture effects or filters to your whole scene. This can transform the feel of your scene and mimic interesting visual effects.</p>
+        <h4>Cameras</h4>
+        <p>Perspective and orthographic; controllers: trackball, FPS, path and more. It will give you combine skin shader effects in the Three.js. Three.js library provides two different cameras: orthographic camera and perspective camera. We can apply an Abstract base class filter for cameras. This class should always be genetic when you build a new camera.</p>
+        <h4>Animation</h4>
+        <p>Within the Three.js animation system, you can animate various properties of your models. Armatures, forward kinematics, inverse kinematics, morph, and keyframe.</p>
+        <h4>Making a Mesh</h4>
+        <p>The skeleton that makes up the figure of the 3D objects is called a mesh. The meshes that make up a polygonal model consist of three parts: faces, edges, and vertices. To have simple things, Primitives are geometric meshes, relatively basic ones like Spheres, Planes, Cubes, and Cylinders.API design, Canvas Renderer, and SVGRenderer this three design can make a mesh an effect to display an outline around a mesh.</p>
+        
+      </div>
+      
+    </main>
+
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
