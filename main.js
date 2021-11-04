@@ -2,6 +2,7 @@ import './style.css'
 
 import * as THREE from 'three';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls';
+import wallpaperImage from './wallpaper.jpg';
 
 
 //Scene
@@ -62,7 +63,7 @@ Array(200).fill().forEach(addStars);      //Generates 200 stars
 
 
 //Background
-const backgroundImg = new THREE.TextureLoader().load('./wallpaper.jpg');
+const backgroundImg = new THREE.TextureLoader().load(wallpaperImage);
 scene.background = backgroundImg;
 
 //sphere
