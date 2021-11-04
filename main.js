@@ -62,7 +62,7 @@ Array(200).fill().forEach(addStars);      //Generates 200 stars
 
 
 //Background
-const backgroundImg = new THREE.TextureLoader().load('wallpaper.jpg');
+const backgroundImg = new THREE.TextureLoader().load('./wallpaper.jpg');
 scene.background = backgroundImg;
 
 //sphere
